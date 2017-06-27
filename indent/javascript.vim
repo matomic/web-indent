@@ -8,7 +8,7 @@
 " =================
 
 " Only load one indent script per buffer
-if exists("*:GetJsIndent")
+if exists("g:GetJsIndent")
 "if exists('b:did_indent')
   finish
 endif
